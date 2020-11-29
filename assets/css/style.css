@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: #161616;
+  background: #161616; /*custom dk grey background color*/
   font: 400 12px/1.8 "Open Sans", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
