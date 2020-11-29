@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #161616;
   font: 400 12px/1.8 "Open Sans", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
@@ -168,12 +168,11 @@ a,
 .module,
 .module-small {
   position: relative;
-  padding-top: 75px;
-  /*padding: 140px 0;*/
+  /*padding-top: 75px;*/
+  padding: 140px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  background-color: black;
 }
 
 /* Module header */
@@ -187,11 +186,6 @@ a,
 
 .module-medium {
   /*padding: 75px 0px;*/
-}
-
-/* added for no padding image gallery*/
-.module .container {
-  width: 100%;
 }
 
 .holder-w {
@@ -2123,12 +2117,18 @@ Google map
   padding-right: 0px;
 }
 
+/*Spacing between blog posts only, not gallery images*/
+.col-sm-6.col-md-4.col-lg-4 .post{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .col-sm-6.col-md-4.col-lg-4 .gallery-image {
-  min-height: 30vw;
+  min-height: 25vw;
 }
 
 .col-sm-6.col-md-4.col-lg-4 .gallery-image img {
-  min-height: 30vw;
+  min-height: 25vw;
 }
 
 .col-sm-6.col-md-3.col-lg-3 {
@@ -2273,6 +2273,11 @@ Google map
 .post-images-slider,
 .post-video {
   margin: 0 0 20px;
+}
+
+/* hover fx for post thumbs */
+.post-thumbnail img:hover {
+  filter: contrast(110%);
 }
 
 .post-quote {
