@@ -2242,7 +2242,7 @@ Google map
 .post-title {
   line-height: 1.4;
   font-size: 22px;
-  color: #111;
+  color: #FFD000;
   margin: 0;
 }
 
@@ -2256,8 +2256,8 @@ Google map
 }
 
 .post-entry {
-  border-top: 1px dotted #c2c2c2;
-  padding-top: 20px;
+  /*border-top: 1px dotted #c2c2c2;*/
+  /*padding-top: 10px;*/
   margin-top: 10px;
 }
 
@@ -2272,11 +2272,11 @@ Google map
 .post-thumbnail,
 .post-images-slider,
 .post-video {
-  margin: 0 0 20px;
+  margin: 0 0 8px;
 }
 
-/* hover fx for post thumbs */
-.post-thumbnail img:hover {
+/* hover fx for post thumbs links */
+.post-thumbnail a:hover {
   filter: contrast(110%);
 }
 
@@ -2297,7 +2297,7 @@ Google map
 
 .post-columns .post-title {
   line-height: 1.8;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .post-columns .post-entry {
@@ -2312,6 +2312,11 @@ Google map
 
 .post-columns .post-entry p:last-child {
   margin: 0;
+}
+
+.post-image-caption p
+{
+  color: #AAAAAA;
 }
 
 .more-link:after {
@@ -2445,15 +2450,16 @@ Google map
 /* Sidebar / Widget common*/
 .sidebar .widget {
   margin-bottom: 60px;
+  font-size: 12px;
 }
 
 .sidebar .widget-title {
-  color: #111;
+  color: #FFD000;
 }
 
 .widget .widget-title {
   border-bottom: 1px dotted #c2c2c2;
-  font-size: 14px;
+  font-size: 16px;
   padding: 0 0 10px;
   margin: 0 0 15px;
 }
