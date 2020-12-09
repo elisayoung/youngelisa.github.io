@@ -14,6 +14,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.post-image-tiles img {
+  max-width: 50%;
+  float: left;
+  display: inline;
+  padding: 0px 8px 0px;
+  margin: 0px 0px 16px;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -2273,14 +2281,6 @@ Google map
 .post-images-slider,
 .post-video {
   margin: 0 0 8px;
-}
-
-.post-image-tiles img {
-  max-width: 50%; 
-  float: left; 
-  display: inline;
-  padding: 0px 8px 0px;
-  margin: 0px 0px 16px;
 }
 
 /* hover fx for post thumbs links */
