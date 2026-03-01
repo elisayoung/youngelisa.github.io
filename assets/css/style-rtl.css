@@ -2086,12 +2086,16 @@ Google map
 .gallery-image a.gallery {
   position: relative;
   display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
 }
 
 .gallery-image img {
   display: block;
   overflow: hidden;
   width: 100%;
+  transition: filter 0.2s ease-in-out;
 }
 
 .gallery-image:after {
@@ -2104,6 +2108,7 @@ Google map
   top: 0;
   right: 0;
   z-index: 1;
+  pointer-events: none;
 }
 
 .gallery-caption {
@@ -2135,7 +2140,11 @@ Google map
 
 /* Gallery hover */
 .gallery-item:hover .gallery-image:after {
-  background: rgba(0, 0, 0, 0.6);
+  background: transparent;
+}
+
+.gallery-item:hover .gallery-image img {
+  filter: brightness(0.85);
 }
 
 .gallery-item:hover .gallery-caption {
