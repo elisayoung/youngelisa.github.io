@@ -4,9 +4,10 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
  * Preloader
  /* ---------------------------------------------- */
 (function(){
-    $(window).on('load', function() {
+    // Hide the loader once the DOM is ready rather than waiting for every image.
+    $(function() {
         $('.loader').fadeOut();
-        $('.page-loader').delay(350).fadeOut('slow');
+        $('.page-loader').fadeOut('fast');
     });
 
     $(document).ready(function() {

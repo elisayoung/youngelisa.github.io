@@ -14,7 +14,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.post-image-tiles img {
+.post-image-tiles img,
+.post-image-tiles video {
   max-width: 50%;
   float: left;
   display: inline;
